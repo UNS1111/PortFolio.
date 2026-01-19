@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f2933, #111827);
+  min-height: 100vh;
+  color: #e5e7eb;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+
+h1 {
+  font-size: 36px;
+  color: #60a5fa;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #93c5fd;
+}
+
+p {
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+
+.project {
+  background: rgba(255,255,255,0.07);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.project h3 {
+  color: #facc15;
+}
+
+.project span {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+
+.skills span {
+  display: inline-block;
+  background: #2563eb;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 6px 6px 0 0;
+  font-size: 14px;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app/src/profile.png-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #60a5fa;
+  object-fit: cover;
+}
